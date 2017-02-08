@@ -165,7 +165,7 @@
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2017/02/07/test/">test</a>
+      <a class="article-title" href="/2017/02/07/test/">1.1 python 输入输出</a>
     </h1>
   
 
@@ -178,9 +178,22 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <ul>
-<li>test<br>test111</li>
-</ul>
+        <p>output</p>
+<blockquote>
+<p>>&gt;&gt;print ‘hello world’</p>
+<p>>&gt;&gt;_<br>_代表最后一个表达式的值</p>
+<p>>&gt;&gt;print “%s is number %d!” % (“python”,1)<br>python is number 1!</p>
+</blockquote>
+<p>input</p>
+<blockquote>
+<p>>&gt;&gt;user = raw_input(‘Enter login name:’)<br>Enter login name:root</p>
+<p>>&gt;&gt;print “Your input name is”, user<br>Your input name is root</p>
+<p>>&gt;&gt;num = raw_input(‘Now enter a number:’)<br> Now enter a number:1024</p>
+<p>>&gt;&gt;print type(num)                                      //<type 'str'=""></type></p>
+<p>>&gt;&gt;print ‘Doubling your number: %d’ % (int(num) * 2)<br>Doubling your number:2048</p>
+<p>强制转换1024字符串为int类型</p>
+<p>>&gt;&gt;print type(num)                                   <type 'str'=""></type></p>
+</blockquote>
 
       
 
@@ -189,6 +202,17 @@
     <div class="article-info article-info-index">
       
       
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color2">python</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
       
 
       
@@ -357,6 +381,10 @@
             <input type="checkbox" q-on="click:toggleTag(e)" q-attr="checked:showTags">
           </label>
           <ul class="article-tag-list" q-show="showTags">
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color2">python</a>
+              </li>
             
             <div class="clearfix"></div>
           </ul>
